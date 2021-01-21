@@ -100,6 +100,6 @@ var questions = ["What is your favorite meal to cook and why?",
 "Have you ever completed anything on your “bucket list”? What was it? ",
 "If you could have someone follow you around all the time, like a personal assistant, what would you have them do?",
 "If you could magically become fluent in any language, what would it be?",
-"Would you rather meet your travel back in time to meet your ancestors or to the future to meet your descendants?"]
+"Would you rather travel back in time to meet your ancestors or to the future to meet your descendants?"]
 
 var used_questions = [];
