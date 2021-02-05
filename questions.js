@@ -12,6 +12,13 @@ $('#new_question').on('click', function() {
 	// Remove used question from list
 	 questions.splice(ques_idx,1);
 
+	//
+	if (question_ct == 1) {
+		questions = Array.from(used_questions);
+	}
+
+
+
 	
 
 });
@@ -102,4 +109,4 @@ var questions = ["What is your favorite meal to cook and why?",
 "If you could magically become fluent in any language, what would it be?",
 "Would you rather travel back in time to meet your ancestors or to the future to meet your descendants?"]
 
-var used_questions = [];
+var used_questions = Array.from(questions);
